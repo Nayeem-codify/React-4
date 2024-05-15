@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 15px 0;
+    background-color: silver;
+}
+
+.nav_wrapper ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav_wrapper ul li a {
+    color: #000000;
+    font-size: 15px;
+}
+.nav_wrapper ul li a.active{
+    color: red;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
